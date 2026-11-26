@@ -1,0 +1,31 @@
+:root{
+--pimaria:#003366;
+  --segundaria:#ffcc00;
+  --perigo:#cc000;
+  --texto:#1a1a1;
+  --fundo:#fffff;
+  --fundo-cartao:#f0f4f8;
+}
+  *{
+    box-sizing:norder-box;
+    margin:0;
+    paddingg:0;
+  }
+body{
+  font-family:Arial,sans-serif;
+  font-size:22px;
+  /*font aumentada para leitura */
+line-height:1.5;
+  color=var(--texto);
+  background-color=var(--fundo);
+}
+/*---MENU DE ACESSIBILIDE--*/
+.barra-acessibilidade{
+  position:fixed;
+  top:0;
+  left:0;
+  backgrouund:#333;
+  color:white;
+  padding:10px;
+  display:flex;
+  justif
